@@ -21,6 +21,19 @@ button {
     font-family: inherit;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -29,6 +42,8 @@ button {
         letter-spacing: 0.03em;
         color: #4d5ae5;
         text-transform: uppercase;
+        margin-right: 76px;
+
 
 }
 
@@ -39,8 +54,15 @@ button {
 .header-navigation {
     color: #2e2f42;
     background: #fff;
+    display: flex;
+    align-items: center;
 }
 
+.header-navigation-item {
+    display: flex;
+    gap: 40px;
+
+}
 
 .header-navigation-link {
     font-weight: 500;
@@ -48,6 +70,8 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+
 }
 
 .header-navigation-link:hover,
@@ -61,6 +85,11 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-list-link {
@@ -83,6 +112,8 @@ button {
     top: 72px;
     gap: 0px;
     opacity: 0px;
+    padding: 188px 0;
+
 
 }
 
@@ -98,6 +129,7 @@ button {
     Height: 120px;
     Top: 260px;
     Left: 472px;
+    max-width: 496px;
 }
 
 .solutions-btn {
@@ -116,6 +148,13 @@ button {
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
     opacity: 0px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 
 }
 
@@ -124,6 +163,11 @@ button {
     background: #404bbf;
 }
     
+.adventures {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 .adventures-subtitle {
     font-weight: 500;
