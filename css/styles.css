@@ -25,16 +25,25 @@ button {
     border-bottom: 1px solid #e7e9fc;
 
 }
-.cont-header {
-    display: flex;
-}
 
 .container {
-   
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 
+}
+.container-header-container {
+    display: flex; 
+    align-items: center;
+}
+
+.header-navigation {
+    color: #2e2f42;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
 }
 
 .header-logo {
@@ -47,26 +56,16 @@ button {
         text-transform: uppercase;
         margin-right: 76px;
         
-
-
 }
 
 .header-logo-color {
     color: #2e2f42;
-}
 
-.header-navigation {
-    color: #2e2f42;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    display: flex;
-    gap: 40px;
-    
 }
 
 .header-navigation-item {
-   
+    padding: 24px 0;
+
    
 
 }
@@ -195,7 +194,7 @@ button {
     gap: 24px;
 }
 .adventures-list-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 
 }
 
@@ -241,7 +240,9 @@ button {
 .team-list-item {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
+
 .img {
     display: block;
     
@@ -317,7 +318,7 @@ button {
 .div-subtitle-text {
     border: 1px solid #e7e9fc; 
     border-top: none;
-    padding: 32px 0;
+    padding: 32px 16px
 }
 
 .footer {
