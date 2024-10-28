@@ -29,10 +29,11 @@ button {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 
 }
-.container-header-container {
+.header-container {
     display: flex; 
     align-items: center;
 }
