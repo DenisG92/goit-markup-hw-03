@@ -195,7 +195,7 @@ button {
     gap: 24px;
 }
 .adventures-list-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc ((100% - 72px) / 4);
 
 }
 
@@ -251,8 +251,8 @@ button {
 }
 
 .div-subtitle-text {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
+    
 }
 
 .team-subtitle {
